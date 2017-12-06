@@ -6,4 +6,6 @@
 
 #linuxenv/.. :Linux下环境相关，查看程序环境变量，查看时间，用户信息，临时文件等
 
-#terminal/.. :对终端的控制，termios，terminfo..
+#terminal/.. :对终端的控制，termios，terminfo.
+
+#datamanagement/dbm.c :一个简单的数据库dbm例子
