@@ -27,7 +27,7 @@ int main()
 	res = find_cds("Symphony", &cd_res);
 	printf("Found %d cds, first has ID %d\n", res, cd_res.cd_id[0]);
 	
-	res = get_cd(cd_res_cd_id[0], &cd);
+	res = get_cd(cd_res.cd_id[0], &cd);
 	printf("get_cd return %d\n", res);
 	printf("Title %s\n", cd.title);
 	i = 0;
@@ -38,7 +38,7 @@ int main()
 	}
 	
 	res = delete_cd(cd_res.cd_id[0]);
-	printf("Delete_cd return %d\n");
+	printf("Delete_cd return %d\n", res);
 	
 	database_end();
 	
