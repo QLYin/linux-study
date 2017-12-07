@@ -9,3 +9,5 @@
 #terminal/.. :对终端的控制，termios，terminfo.
 
 #datamanagement/dbm.c :一个简单的数据库dbm例子
+
+#mysql/* :一个用mysql实现的cd管理器例子
